@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>Document</title>
     <script src="jquery.min.js"></script>
     <script src="clipboard.min.js"></script>
@@ -70,7 +71,7 @@
         		die('There was an error writing this file');
     		}
     		else {
-        		echo "$ret bytes written to file";
+        		//echo "$ret bytes written to file";
     		}
 		}else {
    			die('no post data to process');
